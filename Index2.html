@@ -1,303 +1,326 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/style2.css" />
-    <title>My Profile</title>
+    <meta name="description" content="Profile IDN" />
+    <meta name="keywords" content="html|css|js" />
+
+    <!-- FAV ICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo  idn.png"
+      type="image/x-icon"
+    />
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Profile IDN</title>
   </head>
 
   <body>
-    <!-- Header -->
-    <section id="header">
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
-            <a href="#hero"
-              ><h1><span>K</span>hariz</h1></a
-            >
+    <!-- ==================================================== NAVBAR ==================================================== -->
+    <nav>
+      <ul class="navbar-list">
+        <li class="logo">
+          <a href="#">IDN Boarding School</a>
+        </li>
+        <li class="toggle">
+          <img
+            src="assets/img/Menu-bar.png"
+            width="30"
+            height="30"
+            alt="Menu"
+          />
+        </li>
+        <li class="navbar-item">
+          <a href="#syarat-pendaftaran" class="navbar-link"
+            >Syarat Pendaftaran</a
+          >
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="navbar-link">Status kelulusan</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#itfest" class="navbar-link">IDN IT Fest</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#profile" class="navbar-link">Profile</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="navbar-link">Kontak</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="navbar-link-login">Login</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="navbar-link-register">Register</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ==================================================== End Navbar ==================================================== -->
+
+    <!-- ==================================== Header ==================================== -->
+    <header>
+      <section class="header">
+        <div class="header-container">
+          <div class="logo-idn">
+            <img
+              src="assets/img/pexels-s-migaj-747964.jpg"
+              alt=""
+              class="logo-img"
+            />
           </div>
-          <div class="nav-list">
-            <div class="hamburger"><div class="bar"></div></div>
-            <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <li><a href="#services" data-after="Skill">Skill</a></li>
-              <li><a href="#projects" data-after="Project">Project</a></li>
-              <li><a href="#about" data-after="About">About</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
-            </ul>
+          <div class="big-heading">
+            <h1>IDN Boarding School Solo</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
+              nulla autem atque error molestiae sapiente qui dolores perferendis
+              ex quae? Excepturi id ex accusamus eveniet adipisci! Amet
+              exercitationem quos debitis?
+            </p>
+            <button class="btn-explore">
+              <a href="#">Explore 1</a>
+            </button>
+            <button class="btn-explore">
+              <a href="#">Explore 2</a>
+            </button>
+            <button class="btn-explore">
+              <a href="#">Explore 3</a>
+            </button>
+            <button class="btn-explore">
+              <a href="#">Explore 4</a>
+            </button>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Header -->
+      </section>
+    </header>
+    <!-- ==================================== End Header ==================================== -->
 
-    <!-- Hero Section -->
-    <section id="hero">
-      <div class="hero container">
-        <div>
-          <h1>Hello, <span></span></h1>
-          <h1>My name is <span></span></h1>
-          <h1>Khariz <span></span></h1>
-          <!-- <a href="#projects" type="button" class="cta">Portfolio</a> -->
+    <!-- ======================================== Syarat Pendaftaran ======================================== -->
+    <article>
+      <section class="collection" id="syarat-pendaftaran">
+        <h2>Syarat Pendaftaran</h2>
+        <h6>Penerimaan Peserta Didik Baru</h6>
+        <div class="collection-container">
+          <div class="list-Persyaratan">
+            <ol class="activity-feed">
+              <li class="feed-item feed-item-default">
+                Buku Rapor SMP atau sederajat.
+              </li>
+              <li class="feed-item feed-item-primary">
+                <p class="date">9 November 2022</p>
+                Surat keterangan nilai rapor semester 1-5 SMP atau sederajat
+                yang diterbitkan oleh sekolah terkait.
+              </li>
+              <li class="feed-item feed-item-secondary">
+                <p class="date">9 November 2022</p>
+                Ijazah SMP/sederajat atau surat keterangan bahwa siswa telah
+                menyelesaikan pendidikan SMP atau sederajat yang dikeluarkan
+                pihak sekolah.
+              </li>
+              <li class="feed-item feed-item-success">
+                Akta kelahiran dengan batas usia maksimal 21 tahun pada awal
+                tahun ajaran 2022/2023.
+              </li>
+              <li class="feed-item feed-item-info">
+                Kartu Keluarga (KK) yang diterbitkan minimal 1 tahun sebelum
+                tanggal pendaftaran PPDB.
+              </li>
+              <li class="feed-item feed-item-warning">
+                Bagi calon peserta didik lulusan pesantren harus membawa surat
+                keterangan bahwa pesantren terdaftar pada Educational Management
+                Islamic System (EMIS) yang diterbitkan oleh Kantor Wilayah
+                Kementrian Agama terkait.
+              </li>
+              <li class="feed-item feed-item-danger">
+                Terdaftar pada Data Terpadu Kesejahteraan Sosial (DTKS) dan atau
+                menyertakan bukti kepemilikan Kartu Indonesia Pintar (KIP) yang
+                diterbitkan Mendikbud untuk peserta jalur Afirmasi.
+              </li>
+              <li class="feed-item feed-item-default">
+                Surat penugasan dari instansi terkait bagi peserta didik dengan
+                jalur Perpindahan Tugas Orang Tua.
+              </li>
+              <li class="feed-item feed-item-primary">
+                Piagam prestasi tertinggi yang dimiliki sesuai dengan ketentuan
+                untuk pendaftaran jalur Prestasi.
+              </li>
+            </ol>
+          </div>
+          <div class="logo-list">
+            <img
+              src="/assets/img/logo  idn.png"
+              alt="Gambar List"
+              class="list-img"
+            />
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- End Hero Section -->
+      </section>
+    </article>
+    <!-- ======================================== End Syarat Pendaftaran ======================================== -->
 
-    <!-- Service Section -->
-    <section id="services">
-      <div class="services container">
-        <div class="service-top">
-          <h1 class="section-title">Sk<span>i</span>ll</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
-            deleniti maiores pariatur assumenda quas magni et, doloribus quod
-            voluptate quasi molestiae magnam officiis dolorum, dolor provident
-            atque molestias voluptatum explicabo!
+    <!-- =========================================== STATUS KELULUSAN ===========================================  -->
+    <article>
+      <section class="collection-kelulusan" id="status-kelulusan">
+        <div class="card-cek">
+          <h2>Cek status kelulusan</h2>
+        </div>
+        <div class="card-input">
+          <input type="text" class="input-name" placeholder="Input your name" />
+        </div>
+        <div class="card-input">
+          <input
+            type="text"
+            class="input-name"
+            placeholder="Input your no. Registration"
+          />
+        </div>
+        <div class="card-input">
+          <button class="button-cek">
+            <h2>Cek Kelulusan</h2>
+          </button>
+        </div>
+      </section>
+    </article>
+    <!-- =========================================== End STATUS KELULUSAN =========================================== -->
+
+    <!-- ========================================= IDN IT FEST ========================================= -->
+    <article>
+      <section class="collection-itfest" id="itfest">
+        <h2>IDN IT Fest</h2>
+        <div class="collection-itfest-container">
+          <!-- ===== Network engineer ===== -->
+          <div class="collection-itfest-card">
+            <div class="image-box">
+              <img src="/assets/img/network.jpg" alt="network.jpg" srcset="" />
+            </div>
+            <h3>Network Engineer</h3>
+            <button class="card-button">Visit</button>
+          </div>
+          <!-- ====== End Network Engineer =====  -->
+
+          <!-- ====== UI UX Design ===== -->
+          <div class="collection-itfest-card">
+            <div class="image-box">
+              <img src="/assets/img/uiux.jpg" alt="uiux.jpg   " srcset="" />
+            </div>
+            <h3>UI UX Designer</h3>
+            <button class="card-button">Visit</button>
+          </div>
+          <!-- ===== End UI UX Design ===== -->
+
+          <!-- ===== Wed Develop -->
+          <div class="collection-itfest-card">
+            <div class="image-box">
+              <img src="/assets/img/web-dev.jpg" alt="web-dev.jpg" srcset="" />
+            </div>
+            <h3>Web Developer</h3>
+            <button class="card-button">Visit</button>
+          </div>
+          <!-- ===== End Web Develop ===== -->
+        </div>
+      </section>
+    </article>
+    <!-- ========================================= END IDN IT FEST ========================================= -->
+
+    <!-- ========================= Profile ========================= -->
+    <article>
+      <section class="collection-profile" id="profile">
+        <h2>Profile</h2>
+        <div class="collection-profile-container">
+          <div class="collection-profile-card">
+            <div class="image-box">
+              <img src="/assets/img/network.jpg" alt="network.jpg" srcset="" />
+            </div>
+            <h3>Ghazwan Khariz</h3>
+            <div class="contact">
+              <a href="#linkgithub" class="social-media">
+                <img
+                  src="/assets/img/icons8-github.svg"
+                  width="30"
+                  height="30"
+                  alt="github"
+                  srcset=""
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/khariz-ghazwan-914201257/"
+                class="social-media"
+              >
+                <img
+                  src="/assets/img/icons8-linkedin-circled.svg"
+                  width="30"
+                  height="30"
+                  alt="linkedin"
+                  srcset=""
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/ghazwan_khariz/"
+                class="social-media"
+              >
+                <img
+                  src="/assets/img/icons8-instagram (1).svg"
+                  width="30"
+                  height="30"
+                  alt="instagram"
+                  srcset=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <!-- ========================= End PROFILE ========================= -->
+
+    <!-- ==================== FOOTER ==================== -->
+    <section class="footer">
+      <div class="container footer-container">
+        <div class="footer-1">
+          <p style="text-align: justify; margin: 8px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <p style="text-align: justify; margin: 8px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <p style="text-align: justify; margin: 8px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
         </div>
-        <div class="service-bottom">
-          <div class="service-item">
-            <div class="icon">
-              <img src="https://img.icons8.com/color/144/null/figma--v1.png" />
-            </div>
-            <h2>UI/UX</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
-            </p>
-          </div>
-          <div class="service-item">
-            <div class="icon">
-              <img src="/assets/img/developer.png" />
-            </div>
-            <h2>IT programmer</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
-            </p>
-          </div>
-          <div class="service-item">
-            <div class="icon">
-              <img src="/assets/img/prayer (1).png" />
-            </div>
-            <h2>Diniyyah</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
-            </p>
-          </div>
-          <div class="service-item">
-            <div class="icon">
-              <img src="/assets/img/speak.png" />
-            </div>
-            <h2>English</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
-            </p>
-          </div>
+        <div class="footer-2">
+          <a href="">Github</a>
+          <a href="">Instagram</a>
+          <a href="">Linkedin</a>
         </div>
-      </div>
-    </section>
-    <!-- End Service Section -->
+        <div class="footer-3">
+          <p>Copy &copy; 2022</p>
+          <a href="">
+            <img src="/assets/img/icons8-github.svg" width="30" height="30" alt="Github" srcset="">
+          </a>
+          <a href="">
+            <img src="/assets/img/icons8-instagram (1).svg" width="30" height="30" alt="Instagram" srcset="">
+          </a>
+          <a href="">
+            <img src="/assets/img/icons8-linkedin-circled.svg" width="30" height="30" alt="Linkedin" srcset="">
+          </a>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="projects container">
-        <div class="projects-header">
-          <h1 class="section-title"><span>Project</span> results</h1>
         </div>
-        <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 1</h1>
-              <h2>Diniyyah Post</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                sapiente consectetur dolor quis officiis recusandae at magni sit
-                eos. Debitis expedita eligendi libero in dolores est
-                perspiciatis quisquam praesentium minima.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 2</h1>
-              <h2>create a website using bootstrap</h2>
-              <p>
-                It was the first time I made a website using bootstrap, of
-                course because I was just learning for the first time so the
-                results must be bad -_-
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 3</h1>
-              <h2>English Presentation</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                sapiente consectetur dolor quis officiis recusandae at magni sit
-                eos. Debitis expedita eligendi libero in dolores est
-                perspiciatis quisquam praesentium minima.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 4</h1>
-              <h2>Coding is great</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                sapiente consectetur dolor quis officiis recusandae at magni sit
-                eos. Debitis expedita eligendi libero in dolores est
-                perspiciatis quisquam praesentium minima.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 5</h1>
-              <h2>Coding is great</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                sapiente consectetur dolor quis officiis recusandae at magni sit
-                eos. Debitis expedita eligendi libero in dolores est
-                perspiciatis quisquam praesentium minima.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 6</h1>
-              <h2>Coding is great</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                sapiente consectetur dolor quis officiis recusandae at magni sit
-                eos. Debitis expedita eligendi libero in dolores est
-                perspiciatis quisquam praesentium minima.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="/assets/img/img-1.jpg" alt="img" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
-
-    <!-- About Section -->
-    <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
-            <img src="/assets/img/img-2.jpg" alt="img" />
-          </div>
-        </div>
-        <div class="col-right">
-          <h1 class="section-title">About <span>me</span></h1>
-          <h2>software engineering students</h2>
+        <div class="footer-4">
           <p>
-            Hai. My name is Khariz, I'm grade 10 in vocational high school and I
-            am a student from IDN Boarding School Solo so greetings to all of
-            you
+            Berjo, kec. Ngargoyoso, Kabupaten Karanganyar, Jawa Tengah 57793
           </p>
-          <!-- <a href="#" class="cta">Download Resume</a> -->
+          <h2>IDN Boarding School Solo</h2>
         </div>
       </div>
     </section>
-    <!-- End About Section -->
+    <!-- ==================== END FOOTER ==================== -->
 
-    <!-- Contact section -->
-    <section id="contact">
-      <div class="contact container">
-        <div>
-          <h1 class="section-title">Contact <span>info</span></h1>
-        </div>
-        <div class="contact-items">
-          <div class="contact-item">
-            <div class="icon"><img src="assets/img/phone.png" /></div>
-            <div class="contact-info">
-              <h1>Phone</h1>
-              <h2>+62 5400 2644</h2>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon"><img src="/assets/img/gmail (1).png" /></div>
-            <div class="contact-info">
-              <h1>Email</h1>
-              <h2>kharizghazwan@gmail.com</h2>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon"><img src="/assets/img/location.png" /></div>
-            <div class="contact-info">
-              <h1>Address</h1>
-              <h2>Indonesia, Ease Kalimantan</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Contact section -->
-
-    <!-- Footer -->
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h1><span>K</span>hariz</h1>
-        </div>
-        <h2>Follow my social media</h2>
-        <div class="social-icon">
-          <div class="social-item">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/khariz-ghazwan-914201257/"
-              ><img src="https://img.icons8.com/color/48/null/linkedin.png"
-            /></a>
-          </div>
-          <div class="social-item">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/ghazwan_khariz/?hl=id"
-              ><img
-                src="https://img.icons8.com/fluency/48/null/instagram-new.png"
-            /></a>
-          </div>
-          <div class="social-item">
-            <a
-              target="_blank"
-              href="https://www.youtube.com/channel/UCEvIpfxQxW36U5jFnb3QS_Q"
-              ><img src="https://img.icons8.com/color/48/null/youtube-play.png"
-            /></a>
-          </div>
-        </div>
-        <!-- <p>Copyright © 2020 Khariz. All rights reserved</p> -->
-      </div>
-    </section>
-    <!-- End Footer -->
-    <script src="/profile.js"></script>
+    <!-- ================================== JS ================================== -->
+    <script src="assets/js/main.js"></script>
+    <!-- ================================== End JS ================================== -->
   </body>
 </html>
